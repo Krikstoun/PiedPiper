@@ -1,0 +1,52 @@
+.piedPiper {
+  width: 1219px;
+  height: 3314px;
+  background: #ffffff;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: 0px auto;
+}
+.header {
+  width: 1219px;
+  height: 84px;
+  left: 0px;
+  top: 0px;
+  background: #007765;
+}
+.header__text {
+  padding: 28px 54px 27px 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  text-align: center;
+  float: right;
+  color: #ffffff;
+}
+.header__logo {
+  padding: 20px 0px 19px 55px;
+  width: 184px;
+  height: 45px;
+  left: 55px;
+  top: 20px;
+}
+.jumbotron {
+  background-image: url('images/image.png');
+  width: 1219px;
+  height: 403px;
+  left: 0px;
+  top: 84px;
+ }
+.jumbotron__text {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 160px;
+padding-bottom: 160px;
+}
