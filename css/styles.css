@@ -33,7 +33,7 @@
   top: 20px;
 }
 .jumbotron {
-  background-image: url('images/image.png');
+  background-image: url('../images/image.png');
   width: 1219px;
   height: 403px;
   left: 0px;
