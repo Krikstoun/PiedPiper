@@ -51,6 +51,13 @@ color: #FFFFFF;
 padding-top: 160px;
 padding-bottom: 160px;
 }
+#pr {
+width: 1219px;
+height: 719px;
+left: 1px;
+top: 487px;
+background: #EEEEEE;
+}
 h1 {
 font-family: Roboto;
 font-style: normal;
