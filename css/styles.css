@@ -51,3 +51,12 @@ color: #FFFFFF;
 padding-top: 160px;
 padding-bottom: 160px;
 }
+h1 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+}
