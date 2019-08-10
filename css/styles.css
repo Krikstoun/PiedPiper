@@ -33,20 +33,61 @@
   top: 20px;
 }
 .jumbotron {
-  background-image: url('../images/image.png');
+
+  background-color: black;
+  background-image: url("/images/jumbotron.png");
   width: 1219px;
   height: 403px;
   left: 0px;
   top: 84px;
- }
+}
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  padding-top: 48px;
+  padding-left: 55px;
+}
 .jumbotron__text {
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 72px;
-line-height: 84px;
-text-align: center;
-color: #FFFFFF;
-padding-top: 160px;
-padding-bottom: 160px;
+  font-size: 72px;
+  line-height: 84px;
+ 
+  color: #ffffff;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+#pr {
+  width: 1219px;
+  height: 719px;
+  left: 1px;
+  top: 487px;
+  background: #eeeeee;
+}
+p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+  padding-top: 40px;
+  padding-left: 55px;
+  padding-right: 54px;
+  
+}
+.hero {
+  background-color: black;
+  background-image: url("/images/Hero\ .png");
+}
+.hero p {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #ffffff;
 }
