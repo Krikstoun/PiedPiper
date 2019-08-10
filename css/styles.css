@@ -60,3 +60,23 @@ line-height: 75px;
 text-align: center;
 color: #007765;
 }
+p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000; 
+}
+.hero {
+  background-color: black;
+  background-image: url('/images/Hero\ .png');
+}
+.hero p {
+font-style: italic;
+font-weight: 500;
+font-size: 48px;
+line-height: 56px;
+text-align: center;
+color: #FFFFFF;
+}
