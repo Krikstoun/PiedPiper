@@ -33,13 +33,10 @@
   top: 20px;
 }
 .jumbotron {
-
   background-color: black;
   background-image: url("/images/jumbotron.png");
   width: 1219px;
   height: 403px;
-  left: 0px;
-  top: 84px;
 }
 h1 {
   font-family: Roboto;
@@ -55,7 +52,7 @@ h1 {
 .jumbotron__text {
   font-size: 72px;
   line-height: 84px;
- 
+
   color: #ffffff;
   padding-top: 160px;
   padding-bottom: 160px;
@@ -65,7 +62,7 @@ h1 {
   height: 719px;
   left: 1px;
   top: 487px;
-  background: #eeeeee;
+  background: #eee;
 }
 p {
   font-family: Roboto;
@@ -77,11 +74,13 @@ p {
   padding-top: 40px;
   padding-left: 55px;
   padding-right: 54px;
-  
 }
 .hero {
   background-color: black;
   background-image: url("/images/Hero\ .png");
+  width: 1219px;
+  height: 483px;
+
 }
 .hero p {
   font-style: italic;
@@ -90,4 +89,19 @@ p {
   line-height: 56px;
   text-align: center;
   color: #ffffff;
+}
+#pied {
+  width: 1219px;
+height: 604px;
+}
+#team {
+  width: 1219px;
+height: 845px;
+background: #eee;
+}
+footer {
+  width: 1219px;
+  height: 176px;
+  background: #333;
+  color: #FFFFFF;
 }
