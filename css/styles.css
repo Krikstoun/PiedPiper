@@ -8,6 +8,14 @@ section {
   padding-right: 55px;
   margin: 0px auto;
 }
+p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
 .header {
   max-height: 84px;
   left: 0px;
@@ -16,13 +24,13 @@ section {
 }
 .header__text {
   padding: 28px 54px 27px 0px;
-  font-family: Roboto;
-  font-style: normal;
+  float: right;
+}
+.header__text p {
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
-  float: right;
   color: #ffffff;
 }
 .header__logo {
@@ -31,6 +39,12 @@ section {
   height: 45px;
   left: 55px;
   top: 20px;
+}
+a,
+a:visited,
+a:active {
+  color: #ffffff;
+  text-decoration: none;
 }
 .jumbotron {
   background-color: black;
@@ -58,14 +72,6 @@ h1 {
 #pr {
   max-height: 719px;
   background: #eee;
-}
-p {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 32px;
-  line-height: 37px;
-  color: #000000;
 }
 #pr p {
   padding: 16px 54px 92px 55px;
@@ -103,8 +109,31 @@ footer {
 }
 footer p {
   font-size: 18px;
-line-height: 21px;
-text-align: center;
-color: #FFFFFF;
-padding: 48px 339px 64px 340px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  padding: 48px 339px 64px 340px;
+}
+
+figure {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+figcaption {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #000000;
+}
+.name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #007765;
 }
