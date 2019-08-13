@@ -1,14 +1,18 @@
 .piedPiper {
-  width: 1219px;
-  height: 3314px;
+  width: 100%; 
+  max-width: 1219px 
+  height: 100%;
+  max-height: 3314px;
   background: #ffffff;
   padding-left: 55px;
   padding-right: 55px;
   margin: 0px auto;
 }
 .header {
-  width: 1219px;
-  height: 84px;
+  width: 100%; 
+  max-width: 1219px 
+  height: 100%;
+  max-height: 84px;
   left: 0px;
   top: 0px;
   background: #007765;
