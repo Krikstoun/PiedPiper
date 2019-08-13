@@ -34,7 +34,7 @@ section {
 }
 .jumbotron {
   background-color: black;
-  background-image: url("/images/jumbotron.png");
+  background-image: url("../images/jumbotron.png");
   max-height: 403px;
 }
 h1 {
@@ -72,7 +72,7 @@ p {
 }
 .hero {
   background-color: black;
-  background-image: url("/images/Hero\ .png");
+  background-image: url("../images/Hero\ .png");
   max-height: 483px;
 }
 .hero p {
@@ -100,4 +100,11 @@ p {
 footer {
   max-height: 176px;
   background: #333;
+}
+footer p {
+  font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+padding: 48px 339px 64px 340px;
 }
