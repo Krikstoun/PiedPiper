@@ -1,6 +1,6 @@
-.piedPiper {
-  width: 100%; 
-  max-width: 1219px 
+section {
+  width: 100%;
+  max-width: 1219px;
   height: 100%;
   max-height: 3314px;
   background: #ffffff;
@@ -9,9 +9,6 @@
   margin: 0px auto;
 }
 .header {
-  width: 100%; 
-  max-width: 1219px 
-  height: 100%;
   max-height: 84px;
   left: 0px;
   top: 0px;
@@ -24,7 +21,6 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  /* identical to box height */
   text-align: center;
   float: right;
   color: #ffffff;
@@ -39,8 +35,7 @@
 .jumbotron {
   background-color: black;
   background-image: url("/images/jumbotron.png");
-  width: 1219px;
-  height: 403px;
+  max-height: 403px;
 }
 h1 {
   font-family: Roboto;
@@ -56,14 +51,12 @@ h1 {
 .jumbotron__text {
   font-size: 72px;
   line-height: 84px;
-
   color: #ffffff;
   padding-top: 160px;
   padding-bottom: 160px;
 }
 #pr {
-  width: 1219px;
-  height: 719px;
+  max-height: 719px;
   background: #eee;
 }
 p {
@@ -80,9 +73,7 @@ p {
 .hero {
   background-color: black;
   background-image: url("/images/Hero\ .png");
-  width: 1219px;
-  height: 483px;
-
+  max-height: 483px;
 }
 .hero p {
   font-style: italic;
@@ -94,16 +85,13 @@ p {
   padding: 128px 163px 127px 163px;
 }
 #pied {
-  width: 1219px;
-height: 604px;
+  max-height: 604px;
 }
 #team {
-  width: 1219px;
-height: 845px;
-background: #eee;
+  max-height: 845px;
+  background: #eee;
 }
 footer {
-  width: 1219px;
-  height: 176px;
+  max-height: 176px;
   background: #333;
 }
