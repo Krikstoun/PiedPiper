@@ -89,6 +89,7 @@ p {
   line-height: 56px;
   text-align: center;
   color: #ffffff;
+  padding: 128px 163px 127px 163px;
 }
 #pied {
   width: 1219px;
@@ -103,5 +104,4 @@ footer {
   width: 1219px;
   height: 176px;
   background: #333;
-  color: #FFFFFF;
 }
