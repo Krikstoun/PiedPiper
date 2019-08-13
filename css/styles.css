@@ -87,6 +87,12 @@ p {
 #pied {
   max-height: 604px;
 }
+#pied .float {
+  float: right;
+}
+#pied p {
+  padding: 40px 54px 92px 55px;
+}
 #team {
   max-height: 845px;
   background: #eee;
