@@ -78,7 +78,7 @@ h1 {
 }
 .hero {
   background-color: black;
-  background-image: url("../images/Hero\ .png");
+  background-image: url("../images/Hero.png");
   max-height: 483px;
 }
 .hero p {
