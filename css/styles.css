@@ -1,4 +1,6 @@
-section {
+.foundation {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 1219px;
   height: 100%;
@@ -13,7 +15,7 @@ p {
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
-  line-height: 37px;
+  line-height: 1.3;
   color: #000000;
 }
 .header {
@@ -21,6 +23,7 @@ p {
   left: 0px;
   top: 0px;
   background: #007765;
+  /* position: fixed;   */
 }
 .header__text {
   padding: 28px 54px 27px 0px;
@@ -29,7 +32,7 @@ p {
 .header__text p {
   font-weight: 500;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.3;
   text-align: center;
   color: #ffffff;
 }
@@ -56,58 +59,63 @@ h1 {
   font-style: normal;
   font-weight: 500;
   font-size: 64px;
-  line-height: 75px;
+  line-height: 1.3;
   text-align: center;
   color: #007765;
-  padding-top: 48px;
-  padding-left: 55px;
 }
 .jumbotron__text {
   font-size: 72px;
-  line-height: 84px;
+  line-height: 1.3;
   color: #ffffff;
   padding-top: 160px;
   padding-bottom: 160px;
 }
-#pr {
+.pr {
   max-height: 719px;
   background: #eee;
+  padding: 55px;
 }
-#pr p {
-  padding: 16px 54px 92px 55px;
+.pr__text {
+  margin-top: 0.5em; /* Отступ сверху */
+  margin-bottom: 1em; /* Отступ снизу */
 }
 .hero {
   background-color: black;
   background-image: url("../images/Hero.png");
   max-height: 483px;
 }
-.hero p {
+.hero__text {
   font-style: italic;
   font-weight: 500;
   font-size: 48px;
-  line-height: 56px;
+  line-height: 1.3;
   text-align: center;
   color: #ffffff;
   padding: 128px 163px 127px 163px;
 }
-#pied {
+.pied {
   max-height: 604px;
+  padding: 55px;
 }
-#pied .float {
-  float: right;
+.pied__logo {
+  margin-top: 0.5em; /* Отступ сверху */
+  margin-bottom: 1em; /* Отступ снизу */
+  padding-right: 48px;
+  float: left;
 }
-#pied p {
-  padding: 40px 54px 92px 55px;
+.pied__text {
+  margin-top: 0.5em; /* Отступ сверху */
+  margin-bottom: 1em; /* Отступ снизу */
 }
 .team {
   max-height: 845px;
   background: #eee;
+  padding: 55px;
 }
 .people {
   display: inline-flex;
-  align-content: center;
+  justify-content: center;
   flex-wrap: wrap;
-  background: #eee;
 }
 .foto {
   padding: 25px 90px 12px 90px;
@@ -116,7 +124,7 @@ h1 {
   font-style: italic;
   font-weight: normal;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.3;
   text-align: center;
   color: #000000;
   padding-bottom: 58px;
@@ -125,9 +133,8 @@ h1 {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 1.3;
   text-align: center;
-
   color: #007765;
 }
 footer {
@@ -136,7 +143,7 @@ footer {
 }
 footer p {
   font-size: 18px;
-  line-height: 21px;
+  line-height: 1.3;
   text-align: center;
   color: #ffffff;
   padding: 48px 339px 64px 340px;
