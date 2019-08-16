@@ -99,9 +99,36 @@ h1 {
 #pied p {
   padding: 40px 54px 92px 55px;
 }
-#team {
+.team {
   max-height: 845px;
   background: #eee;
+}
+.people {
+  display: inline-flex;
+  align-content: center;
+  flex-wrap: wrap;
+  background: #eee;
+}
+.foto {
+  padding: 25px 90px 12px 90px;
+}
+.position {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 58px;
+}
+.name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #007765;
 }
 footer {
   max-height: 176px;
@@ -113,27 +140,4 @@ footer p {
   text-align: center;
   color: #ffffff;
   padding: 48px 339px 64px 340px;
-}
-
-figure {
-  display: inline-flex;
-  flex-wrap: wrap;
-  margin: 30px;
-}
-figcaption {
-  font-style: italic;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 21px;
-
-  color: #000000;
-}
-.name {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: center;
-
-  color: #007765;
 }
